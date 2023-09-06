@@ -4,6 +4,7 @@
 from PIL import Image,ImageDraw,ImageFont
 from sys import argv
 import requests
+from os import makedirs
 
 class Color:
     OKGREEN = '\033[92m'
@@ -110,9 +111,11 @@ def Main():
 
         URL = URL.split("//")
         URL = URL[1]
-    
-        im.save('screenshots/{}.png'.format(URL), "PNG")
-
+        try:
+            im.save('screenshots/{}.png'.format(URL), "PNG")
+        except FileNotFoundError:
+            makedirs("screenshots")
+            im.save('screenshots/{}.png'.format(URL), "PNG")
         if len(Non_Headers) == 0:
             pass
         else:
