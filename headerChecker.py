@@ -136,7 +136,7 @@ def banner():
 \_| |_/\___|\__,_|\__,_|\___|_|   \____/_| |_|\___|\___|_|\_\___|_|                                                                                                                                                 
           {}{}
 https://github.com/TURKZEN/headerChecker{}
-          """.format(Color.HEADER,Color.NC,Color.UNDERLINE,Color.NC))
+          """.format(Color.WARNING,Color.NC,Color.UNDERLINE,Color.NC))
 
 
 
