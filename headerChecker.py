@@ -17,9 +17,9 @@ class Color:
 
 def usage():
     print()
-    print("Usage: {}python headerChecker.py 'TXT_FILE' {}".format(Color.FAIL,Color.NC))
+    print("Usage: {}python headerChecker.py [TXT_FILE] {}".format(Color.FAIL,Color.NC))
     print()
-    print("{}'TXT_FILE'{} ---> {}Directory where the URL list is located{}".format(Color.FAIL,Color.NC,Color.OKBLUE,Color.NC))
+    print("{}[TXT_FILE]{} ---> {}Directory where the URL list is located{}".format(Color.FAIL,Color.NC,Color.OKBLUE,Color.NC))
     print()
     quit()
 
