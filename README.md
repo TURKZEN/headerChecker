@@ -16,6 +16,8 @@ headerChecker was created to make it easier to check HTTP Security Headers of a 
 
 ### [+] Installation
  - `https://github.com/TURKZEN/headerChecker.git`
+ - `cd headerChecker`
+ - `pip3 install -r requirements.txt`
 
 ### [+] Usage
  - `cd headerChecker`
