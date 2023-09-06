@@ -12,7 +12,7 @@
 </p>
 
 ### [+] Description
-
+headerChecker was created to make it easier to check HTTP Security Headers of a web application and to take screenshots.
 
 ### [+] Installation
  - `https://github.com/TURKZEN/headerChecker.git`
@@ -20,9 +20,7 @@
 ### [+] Usage
  - `cd headerChecker`
  - `python headerChecker.py [TXT_FILE]`
- - 
- 
-
+   
 ### [+] Find me on 
 <a href="mailto:batuhanthd@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-batuhanthd@gmail.com-blue?style=for-the-badge&logo=gmail"></a>
 
