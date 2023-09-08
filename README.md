@@ -4,7 +4,7 @@
 
 <p align="center">
 <br>
-    <img src="https://img.shields.io/badge/Author-Batuhan Türkarslan-magenta?style=flat-square">
+    <img src="https://img.shields.io/badge/Author-TURKZEN-magenta?style=flat-square">
     <img src="https://img.shields.io/badge/Open%20Source-Yes-orange?style=flat-square">
     <img src="https://img.shields.io/badge/Maintained-Yes-cyan?style=flat-square">
     <img src="https://img.shields.io/badge/Made%20In-Turkey-green?style=flat-square">
